@@ -1,0 +1,119 @@
+*{
+    font-family: "Rimouski";
+}
+
+body{
+    background-color: #293251;
+}
+
+.container{
+    width: 600px;    
+    background-color: #FFF;
+    
+    display: block;
+    margin: 0 auto;
+    
+    border-radius: 10px;
+    padding-bottom : 50px;
+}
+.column1{
+    width: 50%;
+    float: left;
+    background-color: #0c3f7a;
+    height: 100%;
+}
+.column2 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #85e7e0;
+}
+
+.app-title{
+    width: 600px;
+    height: 90px;
+    border-radius: 10px 10px 0 0;
+}
+
+.app-title p{
+    text-align: center;
+    padding: 35px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    color: #293251;
+}
+
+.notification{
+    background-color: #be5b63;
+    display: none;
+}
+
+.notification p{
+    color: #721c24;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+.weather-container{
+    width: 600px;
+    height: 250px;
+    background-color: #cde4ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.weather-icon{
+    width: 600px;
+    height: 128px;
+}
+
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+}
+
+.temp-value{
+    width: 600px;
+    height:60px;
+}
+
+.temp-value p{
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 4em;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.temp-value span{
+    color: #293251;
+    font-size: 0.5em;
+}
+
+
+.temp-description p{
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+
+.location p{
+    margin: 2px;
+    padding: 3px;
+    color: #293251;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+
+
